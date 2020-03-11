@@ -8,8 +8,8 @@
 coca = 0.45
 valor = 0.0
 
-print("\n\n---Preço da Coca é : 45 centavos---")
-print("---Insira os valores em centavos---\n\n")
+print("\n\n---O preço da Coca é R$0,45---")
+print("---Insira o valor em centavos---\n\n")
 
 
 while(valor<coca):
@@ -23,10 +23,10 @@ round(valor,2)
 print("\n\nValor já inserido:", round(valor,2))
 
 else:
-print("\n----Só aceitamos moedas equivalente a 25 e 10 centavos---")
-print("---Você perdeu seu dinheiro!---\n\n")
+print("\n----Só aceitamos moedas equivalente a R$0,25 e R$0,10 centavos---")
+print("---Ops, algo deu errado, não devolvemos dinheiro!---\n\n")
 
 if (valor==0.45):
-print("\n\n\n\t\tPARABENS!!! Você adquiriu uma coca por 45 centavos")
+print("\n\n\n\t\tOperação finalizada!!! Você adquiriu uma coca por 45 centavos")
 else:
-print("\n\n\n\t\tVocê adquiriu sua coca por %s reais. Não devolveremos seu troco!"% valor)
+print("\n\n\n\t\tVocê adquiriu sua coca por %s reais. Não devolveremos troco!"% valor)
